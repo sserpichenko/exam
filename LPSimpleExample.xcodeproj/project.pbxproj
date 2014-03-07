@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84AFE9FD18C9EBB500249CBA /* LPSimpleExample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84AFE9FC18C9EBB500249CBA /* LPSimpleExample-Info.plist */; };
 		B137ADD7143F6EBF007184CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADD6143F6EBF007184CB /* UIKit.framework */; };
 		B137ADD9143F6EBF007184CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADD8143F6EBF007184CB /* Foundation.framework */; };
 		B137ADDB143F6EBF007184CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADDA143F6EBF007184CB /* CoreGraphics.framework */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84AFE9FC18C9EBB500249CBA /* LPSimpleExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LPSimpleExample-Info.plist"; sourceTree = "<group>"; };
 		B10AE48014C890A0003F1704 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/LPSimpleExample/en.lproj/LPFirstViewController.xib"; sourceTree = "<group>"; };
 		B10AE48214C890A0003F1704 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/LPSimpleExample/en.lproj/LPSecondViewController.xib"; sourceTree = "<group>"; };
 		B10AE48314C890A0003F1704 /* LPThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LPThirdViewController.xib; path = "Resources-iPad/LPSimpleExample/LPThirdViewController.xib"; sourceTree = "<group>"; };
@@ -60,7 +62,6 @@
 		B19151D014549ED100A70274 /* LPFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFourthViewController.h; sourceTree = "<group>"; };
 		B19151D114549ED100A70274 /* LPFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFourthViewController.m; sourceTree = "<group>"; };
 		B19151D214549ED100A70274 /* LPFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPFourthViewController.xib; sourceTree = "<group>"; };
-		B1EE84381517A88D0030AB19 /* LPSimpleExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LPSimpleExample copy-Info.plist"; path = "/Users/krukow/github/calabash-ios-example/LPSimpleExample copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +93,11 @@
 		B137ADC7143F6EBF007184CB = {
 			isa = PBXGroup;
 			children = (
+				84AFE9FC18C9EBB500249CBA /* LPSimpleExample-Info.plist */,
 				B10AE47C14C8909E003F1704 /* Resources-iPad */,
 				B137ADDC143F6EBF007184CB /* LPSimpleExample */,
 				B137ADD5143F6EBF007184CB /* Frameworks */,
 				B137ADD3143F6EBF007184CB /* Products */,
-				B1EE84381517A88D0030AB19 /* LPSimpleExample copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +219,7 @@
 				B137ADF3143F6EBF007184CB /* second.png in Resources */,
 				B137ADF5143F6EBF007184CB /* second@2x.png in Resources */,
 				B137ADF8143F6EBF007184CB /* LPFirstViewController.xib in Resources */,
+				84AFE9FD18C9EBB500249CBA /* LPSimpleExample-Info.plist in Resources */,
 				B137ADFB143F6EBF007184CB /* LPSecondViewController.xib in Resources */,
 				B1497422144B4C8900E6EE79 /* LPThirdViewController.xib in Resources */,
 				B19151D514549ED100A70274 /* LPFourthViewController.xib in Resources */,
@@ -340,8 +342,8 @@
 		B137ADFF143F6EBF007184CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Serg Serp (97846227YZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Serg Serp (97846227YZ)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
@@ -357,8 +359,8 @@
 		B137AE00143F6EBF007184CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Serg Serp (97846227YZ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Serg Serp (97846227YZ)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
